@@ -441,6 +441,7 @@ img {
   width: 300px;
   height: 300px;
   border-radius: 0.5rem;
+  background-color: var(--first-color-dark);
 }
 
 .works__data {
@@ -480,6 +481,7 @@ img {
   background-color: var(--first-color-darken);
   color: var(--first-color-lighten);
   text-align: center;
+  padding: 4rem;
 }
 
 .footer__title {
@@ -555,6 +557,7 @@ img {
   .footer__container {
     background-color: var(--first-color-darken);
     padding: 3rem 0;
+    margin: 0;
   }
 }
 
@@ -587,5 +590,8 @@ img {
   .bd-grid {
     margin-left: auto;
     margin-right: auto;
+  }
+  .footer {
+    padding: 4rem 0 0 0;
   }
 }
